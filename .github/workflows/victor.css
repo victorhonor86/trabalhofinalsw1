@@ -1,0 +1,40 @@
+.navbar {
+    text-decoration: none;
+    font-size: normal;
+    line-height: 4;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-color: #000;
+    font-family: "Lucida Console", "Courier New", monospace;   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-style: hidden;
+    border-color: #000;
+    font-family: "Lucida Console", "Courier New", monospace;   
+}
+
+.menu a { text-decoration: none;}
+.menu a:hover {background-color: rgb(255, 0, 0);}
+.menu-active a {
+    text-decoration: none;
+    background-color: rgb(150, 0, 0); 
+} 
+
+.navbar a:hover {
+      background-color: rgb(150, 0, 0);
+}
+
+.navbar-link {
+    text-decoration: none;
+}
